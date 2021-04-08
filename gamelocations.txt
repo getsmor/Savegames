@@ -1,0 +1,3 @@
+C:\Users\%username%\AppData\Roaming\Factorio\
+C:\Users\%username%\AppData\Roaming\HelloGames\
+C:\Users\%username%\AppData\Roaming\qBittorrent\
