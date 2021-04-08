@@ -18,9 +18,6 @@ for /f %%x in (gamelocations.txt) do (
   set /a locationCounter+=1
 )
 
-echo %locationLine_1%
-echo %nameLine_1%
-
 if exist %locationLine_1% (
    xcopy %locationLine_1% %setlocation% /E /y
 ) else (
