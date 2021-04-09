@@ -6,6 +6,7 @@ echo Please specify your backup location with the full address:
 echo (External USB Drive is recommended!)
 set /p setlocation=
 
+cls
 
 set NAME="gamenames.txt"
 set /a c=0
