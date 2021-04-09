@@ -25,9 +25,9 @@ FOR /F "tokens=1 usebackq" %%i in (%LOCATION%) do (
     set /a d=d+1
     set path=%%i
     if exist !path! (
-        Xcopy !path! %setlocation% /E /y
+        Xcopy !path! %setlocation% /e /y
     ) else (
-        echo No files found!
+        echo No files found
     )
 )
 pause
